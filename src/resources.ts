@@ -1,0 +1,16 @@
+export const Resources = {
+  users: "users",
+  lessons: "lessons",
+  courseFilterOptions: "course-filter-options",
+  courseSections: "course-sections",
+  courses: "courses",
+  favourites: "favourites",
+  previews: "previews",
+  lessonFiles: "lesson-files",
+  quizOptions: "quiz-options",
+  quizOptionsCategories: "quiz-options-categories",
+  quizReplies: "quiz-replies",
+  subscriptionPlans: "subscription-plans",
+  transactions: "transactions",
+  genericData: "generic-data",
+};
