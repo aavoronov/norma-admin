@@ -63,6 +63,7 @@ export const LessonList = () => {
           <TextField source="id" />
           <TextField source="title" label="Название урока" />
           <TextField source="description" label="Описание урока" />
+          <NumberField source="views" label="Просмотры" />
           <TextField source="video" label="Ссылка на видео" />
           <NumberField source="duration" label="Длительность (в секундах)" />
           <BooleanField source="isPaid" label="Урок платный" />
@@ -112,6 +113,7 @@ export const LessonEdit = () => {
           <TextInput source="id" disabled />
           <TextInput source="title" label="Название урока" required />
           <TextInput source="description" label="Описание урока" multiline />
+          <NumberInput source="views" label="Просмотры" disabled />
           <TextInput source="video" label="Ссылка на видео" required />
           <NumberInput
             source="duration"
